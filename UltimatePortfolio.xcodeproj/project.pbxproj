@@ -11,6 +11,8 @@
 		8DAAA7A92A66742000DF9AD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7A82A66742000DF9AD4 /* ContentView.swift */; };
 		8DAAA7AB2A66742200DF9AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA7AA2A66742200DF9AD4 /* Assets.xcassets */; };
 		8DAAA7AF2A66742200DF9AD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA7AE2A66742200DF9AD4 /* Preview Assets.xcassets */; };
+		8DAAA7B72A66823C00DF9AD4 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7B52A66823C00DF9AD4 /* Main.xcdatamodeld */; };
+		8DAAA7B92A668C4800DF9AD4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7B82A668C4800DF9AD4 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,10 @@
 		8DAAA7AA2A66742200DF9AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DAAA7AC2A66742200DF9AD4 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		8DAAA7AE2A66742200DF9AD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DAAA7B62A66823C00DF9AD4 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		8DAAA7B82A668C4800DF9AD4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		8DAAA7BA2A66BB6000DF9AD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8DAAA7BB2A66D1F200DF9AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 		8DAAA79A2A66742000DF9AD4 = {
 			isa = PBXGroup;
 			children = (
+				8DAAA7BA2A66BB6000DF9AD4 /* README.md */,
 				8DAAA7A52A66742000DF9AD4 /* UltimatePortfolio */,
 				8DAAA7A42A66742000DF9AD4 /* Products */,
 			);
@@ -52,8 +59,11 @@
 		8DAAA7A52A66742000DF9AD4 /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				8DAAA7BB2A66D1F200DF9AD4 /* Info.plist */,
 				8DAAA7A62A66742000DF9AD4 /* UltimatePortfolioApp.swift */,
 				8DAAA7A82A66742000DF9AD4 /* ContentView.swift */,
+				8DAAA7B52A66823C00DF9AD4 /* Main.xcdatamodeld */,
+				8DAAA7B82A668C4800DF9AD4 /* DataController.swift */,
 				8DAAA7AA2A66742200DF9AD4 /* Assets.xcassets */,
 				8DAAA7AC2A66742200DF9AD4 /* UltimatePortfolio.entitlements */,
 				8DAAA7AD2A66742200DF9AD4 /* Preview Content */,
@@ -139,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAAA7B72A66823C00DF9AD4 /* Main.xcdatamodeld in Sources */,
+				8DAAA7B92A668C4800DF9AD4 /* DataController.swift in Sources */,
 				8DAAA7A92A66742000DF9AD4 /* ContentView.swift in Sources */,
 				8DAAA7A72A66742000DF9AD4 /* UltimatePortfolioApp.swift in Sources */,
 			);
@@ -265,10 +277,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
-				DEVELOPMENT_TEAM = VXMCZJQ3C9;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -284,7 +297,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.chenyian.UltimatePortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ibm.chenyian.UltimatePortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -303,10 +316,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
-				DEVELOPMENT_TEAM = VXMCZJQ3C9;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -322,7 +336,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.chenyian.UltimatePortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ibm.chenyian.UltimatePortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -354,6 +368,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DAAA7B52A66823C00DF9AD4 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DAAA7B62A66823C00DF9AD4 /* Main.xcdatamodel */,
+			);
+			currentVersion = 8DAAA7B62A66823C00DF9AD4 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8DAAA79B2A66742000DF9AD4 /* Project object */;
 }

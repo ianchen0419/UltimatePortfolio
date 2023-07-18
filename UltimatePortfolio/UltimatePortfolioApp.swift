@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct UltimatePortfolioApp: App {
+    // 讓swfit建立並且在app運行期間內持有dataController
+    @StateObject var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
+                .environmentObject(dataController)
         }
     }
 }
