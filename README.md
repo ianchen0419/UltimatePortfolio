@@ -31,3 +31,7 @@ App的儲存分為兩部分：
 - 記憶體儲存（RAM）：資料暫存在記憶體當中，如果關掉App該資料會遺失
 
 `viewContext`則是結合兩種儲存，稱為持久儲存的概念，一般來說資料儲存在硬碟中，但是當使用App時，會將一部分的資料移到記憶體當中，以期快速訪問他們
+
+### CoreData的optional
+
+當你打開CoreData的介面，點選某個Entity之中的Attribute，並且打開右側的屬性面板，你可以看到「■ Optional」這個核取方塊，並且他是預設被打勾了，這裡的optional意思跟Swift的optional（`?`）意思不同，CoreData的optional意思是說當儲存資料時，如果該屬性是空的，會不會幫你存？如果optional被打勾的話，即便是空值他也會保存，如果optional的打勾被拔掉，那麼如果該屬性儲存時是空值，資料儲存將會失敗

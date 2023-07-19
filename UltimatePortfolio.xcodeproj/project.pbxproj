@@ -13,6 +13,9 @@
 		8DAAA7AF2A66742200DF9AD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA7AE2A66742200DF9AD4 /* Preview Assets.xcassets */; };
 		8DAAA7B72A66823C00DF9AD4 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7B52A66823C00DF9AD4 /* Main.xcdatamodeld */; };
 		8DAAA7B92A668C4800DF9AD4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7B82A668C4800DF9AD4 /* DataController.swift */; };
+		8DAAA7BD2A66DADD00DF9AD4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7BC2A66DADD00DF9AD4 /* SidebarView.swift */; };
+		8DAAA7BF2A66DAEC00DF9AD4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7BE2A66DAEC00DF9AD4 /* DetailView.swift */; };
+		8DAAA7C12A66DCA600DF9AD4 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7C02A66DCA600DF9AD4 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8DAAA7B82A668C4800DF9AD4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		8DAAA7BA2A66BB6000DF9AD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DAAA7BB2A66D1F200DF9AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DAAA7BC2A66DADD00DF9AD4 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		8DAAA7BE2A66DAEC00DF9AD4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8DAAA7C02A66DCA600DF9AD4 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +67,14 @@
 			children = (
 				8DAAA7BB2A66D1F200DF9AD4 /* Info.plist */,
 				8DAAA7A62A66742000DF9AD4 /* UltimatePortfolioApp.swift */,
+				8DAAA7C02A66DCA600DF9AD4 /* Filter.swift */,
 				8DAAA7A82A66742000DF9AD4 /* ContentView.swift */,
-				8DAAA7B52A66823C00DF9AD4 /* Main.xcdatamodeld */,
+				8DAAA7BC2A66DADD00DF9AD4 /* SidebarView.swift */,
+				8DAAA7BE2A66DAEC00DF9AD4 /* DetailView.swift */,
 				8DAAA7B82A668C4800DF9AD4 /* DataController.swift */,
-				8DAAA7AA2A66742200DF9AD4 /* Assets.xcassets */,
+				8DAAA7B52A66823C00DF9AD4 /* Main.xcdatamodeld */,
 				8DAAA7AC2A66742200DF9AD4 /* UltimatePortfolio.entitlements */,
+				8DAAA7AA2A66742200DF9AD4 /* Assets.xcassets */,
 				8DAAA7AD2A66742200DF9AD4 /* Preview Content */,
 			);
 			path = UltimatePortfolio;
@@ -149,8 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAAA7C12A66DCA600DF9AD4 /* Filter.swift in Sources */,
 				8DAAA7B72A66823C00DF9AD4 /* Main.xcdatamodeld in Sources */,
+				8DAAA7BF2A66DAEC00DF9AD4 /* DetailView.swift in Sources */,
 				8DAAA7B92A668C4800DF9AD4 /* DataController.swift in Sources */,
+				8DAAA7BD2A66DADD00DF9AD4 /* SidebarView.swift in Sources */,
 				8DAAA7A92A66742000DF9AD4 /* ContentView.swift in Sources */,
 				8DAAA7A72A66742000DF9AD4 /* UltimatePortfolioApp.swift in Sources */,
 			);
