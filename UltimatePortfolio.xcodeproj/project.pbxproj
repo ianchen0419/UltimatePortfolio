@@ -16,6 +16,8 @@
 		8DAAA7BD2A66DADD00DF9AD4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7BC2A66DADD00DF9AD4 /* SidebarView.swift */; };
 		8DAAA7BF2A66DAEC00DF9AD4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7BE2A66DAEC00DF9AD4 /* DetailView.swift */; };
 		8DAAA7C12A66DCA600DF9AD4 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7C02A66DCA600DF9AD4 /* Filter.swift */; };
+		8DAAA7D52A680B0F00DF9AD4 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7D42A680B0F00DF9AD4 /* Issue-CoreDataHelpers.swift */; };
+		8DAAA7D72A68DD5000DF9AD4 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7D62A68DD5000DF9AD4 /* Tag-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		8DAAA7BC2A66DADD00DF9AD4 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		8DAAA7BE2A66DAEC00DF9AD4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		8DAAA7C02A66DCA600DF9AD4 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		8DAAA7D42A680B0F00DF9AD4 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		8DAAA7D62A68DD5000DF9AD4 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				8DAAA7BE2A66DAEC00DF9AD4 /* DetailView.swift */,
 				8DAAA7B82A668C4800DF9AD4 /* DataController.swift */,
 				8DAAA7B52A66823C00DF9AD4 /* Main.xcdatamodeld */,
+				8DAAA7D42A680B0F00DF9AD4 /* Issue-CoreDataHelpers.swift */,
+				8DAAA7D62A68DD5000DF9AD4 /* Tag-CoreDataHelpers.swift */,
 				8DAAA7AC2A66742200DF9AD4 /* UltimatePortfolio.entitlements */,
 				8DAAA7AA2A66742200DF9AD4 /* Assets.xcassets */,
 				8DAAA7AD2A66742200DF9AD4 /* Preview Content */,
@@ -159,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DAAA7C12A66DCA600DF9AD4 /* Filter.swift in Sources */,
+				8DAAA7D72A68DD5000DF9AD4 /* Tag-CoreDataHelpers.swift in Sources */,
 				8DAAA7B72A66823C00DF9AD4 /* Main.xcdatamodeld in Sources */,
+				8DAAA7D52A680B0F00DF9AD4 /* Issue-CoreDataHelpers.swift in Sources */,
 				8DAAA7BF2A66DAEC00DF9AD4 /* DetailView.swift in Sources */,
 				8DAAA7B92A668C4800DF9AD4 /* DataController.swift in Sources */,
 				8DAAA7BD2A66DADD00DF9AD4 /* SidebarView.swift in Sources */,
