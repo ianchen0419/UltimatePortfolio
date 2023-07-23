@@ -37,3 +37,19 @@ App的儲存分為兩部分：
 ### CoreData的optional
 
 當你打開CoreData的介面，點選某個Entity之中的Attribute，並且打開右側的屬性面板，你可以看到「■ Optional」這個核取方塊，並且他是預設被打勾了，這裡的optional意思跟Swift的optional（`?`）意思不同，CoreData的optional意思是說當儲存資料時，如果該屬性是空的，會不會幫你存？如果optional被打勾的話，即便是空值他也會保存，如果optional的打勾被拔掉，那麼如果該屬性儲存時是空值，資料儲存將會失敗
+
+## 6. Showing, deleting, and synchronizing issues
+
+### `.lineLimit()`
+
+| 語法 | 1行文字時 | 2行文字時 | 3行文字時 |
+| ---- | ------- | -------- | -------- |
+| .lineLimit(2) | **顯示1行的高度** | 顯示2行文字 | 顯示2行文字+「...」 |
+| .lineLimit(2...2) | **顯示2行的高度，即使第2行是空的** | 顯示2行文字 | 顯示2行文字+「...」 |
+
+
+`.lineLimit(2...2)`表示不得小於`2`，也不得多於`2`
+
+### CoreData的local data與remote data的合併策略
+
+假設在iPhone創建一個issue，並且在iPad馬上將此issue的優先級別設置為1，那麼`mergeByPropertyObjectTrump`合併策略將會創建一個全新的issue，並且套用剛剛在iPad設置的優先級別，假如iPhone跟iPad同時修改某個issue的優先級別，合併策略會決定哪個贏，他會優先看重local data

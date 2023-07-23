@@ -18,6 +18,7 @@
 		8DAAA7C12A66DCA600DF9AD4 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7C02A66DCA600DF9AD4 /* Filter.swift */; };
 		8DAAA7D52A680B0F00DF9AD4 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7D42A680B0F00DF9AD4 /* Issue-CoreDataHelpers.swift */; };
 		8DAAA7D72A68DD5000DF9AD4 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7D62A68DD5000DF9AD4 /* Tag-CoreDataHelpers.swift */; };
+		8DAAA7D92A6D20C100DF9AD4 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA7D82A6D20C100DF9AD4 /* IssueRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8DAAA7C02A66DCA600DF9AD4 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		8DAAA7D42A680B0F00DF9AD4 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		8DAAA7D62A68DD5000DF9AD4 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		8DAAA7D82A6D20C100DF9AD4 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				8DAAA7A62A66742000DF9AD4 /* UltimatePortfolioApp.swift */,
 				8DAAA7C02A66DCA600DF9AD4 /* Filter.swift */,
 				8DAAA7A82A66742000DF9AD4 /* ContentView.swift */,
+				8DAAA7D82A6D20C100DF9AD4 /* IssueRow.swift */,
 				8DAAA7BC2A66DADD00DF9AD4 /* SidebarView.swift */,
 				8DAAA7BE2A66DAEC00DF9AD4 /* DetailView.swift */,
 				8DAAA7B82A668C4800DF9AD4 /* DataController.swift */,
@@ -172,6 +175,7 @@
 				8DAAA7B92A668C4800DF9AD4 /* DataController.swift in Sources */,
 				8DAAA7BD2A66DADD00DF9AD4 /* SidebarView.swift in Sources */,
 				8DAAA7A92A66742000DF9AD4 /* ContentView.swift in Sources */,
+				8DAAA7D92A6D20C100DF9AD4 /* IssueRow.swift in Sources */,
 				8DAAA7A72A66742000DF9AD4 /* UltimatePortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
